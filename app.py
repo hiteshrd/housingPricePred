@@ -4,7 +4,7 @@ import pickle
 
 app = Flask(__name__)
 model = pickle.load(
-    open('/Users/mithunkumar/Desktop/HomePrices/model.pkl', 'rb'))
+    open('model.pkl', 'rb'))
 
 
 @app.route('/')
